@@ -2846,5 +2846,19 @@ export default {
       address: '0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439',
       tokenType: TokenType.Erc20,
     },
-  },
+  
+  }, PING: {
+    name: 'PING',
+    symbol: 'PING',
+    decimals: 18,
+    logo: 'https://ipfs.io/ipfs/QmWRdtbMgbkphueyYMDki9iv9cwGMkfBKqqjEzbmMmXcfV',
+    coinGeckoId: '',
+    tokenType: TokenType.Cw20,
+
+    cw20: {
+      decimals: 18,
+      address: 'inj1z647rvv0cfv5xx3tgsdx77qclkwu2ng7tg2zq5',
+      tokenType: TokenType.Cw20,
+
+
 } as Record<string, TokenMeta>
